@@ -52,6 +52,7 @@ export default {
 @import "../../common/scss/base";
 .header {
   position: relative;
+  overflow: hidden;
   color: #fff;
   background: rgba(7,17,27,0.5);
   .content-wrapper {
@@ -157,7 +158,7 @@ export default {
     .bulletin-title {
       display: inline-block;
       vertical-align: top;
-      margin-top: 7px;
+      margin-top: 8px;
       width: 22px;
       height: 12px;
       @include bg-image("bulletin");
