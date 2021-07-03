@@ -5,3 +5,14 @@ html {
   font-family: "PingFang SC", "Helvetica Neue", Helvetica, STHeiTi, Arial,
     sans-serif;
 }
+.clearfix{
+  display: inline-block;
+  &:after{
+    display: block;
+    content: '.';
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
